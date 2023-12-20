@@ -1,0 +1,287 @@
+description
+
+
+ ● Data Base
+
+## 1> Introduction
+
+●  Image
+
+● details
+
+## 2>User log
+
+● LoginID
+● User password
+● Level
+
+## 3> Oders
+
+● ID
+● Order ID
+● Customer ID
+● Product ID
+● Details
+● Status
+● Product Photo
+● Customer Email
+● Customer  Phone
+● Customer Address
+● UPI
+● Price
+● Step 1
+● Step 2
+● Step 3
+● Step 4
+● Step 5
+● Step 6
+● Step 7
+● Step 8
+● Upload screenShot of Payment
+● Upload Product img
+
+## 4> Orders (Slice 1)> Status is Ordered
+
+● ID
+● Order ID
+● Customer ID
+● Product ID
+● Details
+● Status
+● Product Photo
+● Customer Email
+● Customer  Phone
+● Customer Address
+● UPI
+● Price
+● Step 1
+● Step 2
+● Step 3
+● Step 4
+● Step 5
+● Step 6
+● Step 7
+● Step 8
+● Upload screenShot of Payment
+● Upload Product img
+
+## 5> Orders (Slice 2)> Status is Shipped
+
+● ID
+● Order ID
+● Customer ID
+● Product ID
+● Details
+● Status
+● Product Photo
+● Customer Email
+● Customer  Phone
+● Customer Address
+● UPI
+● Price
+● Step 1
+● Step 2
+● Step 3
+● Step 4
+● Step 5
+● Step 6
+● Step 7
+● Step 8
+● Upload screenShot of Payment
+● Upload Product img
+
+## 6>Orders (Slice 3)> Status is Delivered
+
+● ID
+● Order ID
+● Customer ID
+● Product ID
+● Details
+● Status
+● Product Photo
+● Customer Email
+● Customer  Phone
+● Customer Address
+● UPI
+● Price
+● Step 1
+● Step 2
+● Step 3
+● Step 4
+● Step 5
+● Step 6
+● Step 7
+● Step 8
+● Upload screenShot of Payment
+● Upload Product img
+
+## 7> Customers
+
+● ID
+● Name
+● Email
+● Phone
+● Address
+● Profile Pic
+
+## 8> Customer (Slice 1) > my profile
+
+● ID
+● Name
+● Email
+● Phone
+● Address
+● Profile Pic
+
+## 9> Product
+
+● Name
+● ID
+● Price
+● image
+● CID
+
+## 10> Product (Slice 1)> Upper
+
+● Name
+● ID
+● Price
+● image
+● CID
+
+## 11> Product (Slice 2 )> Lower
+
+● Name
+● ID
+● Price
+● image
+● CID
+
+## 12> Product (Slice 3 ) > Full
+
+● Name
+● ID
+● Price
+● image
+● CID
+
+## 13> Product (Slice 4 )> Heavy Discounted
+
+● Name
+● ID
+● Price
+● image
+● CID
+
+# ●Views
+
+## ◇Primary Navigation
+
+●Product , database is Product
+●My Profile, database is my profile
+
+## ◇ Menu Navigation
+
+● Upper, database is upper
+● Full, database is Full
+● Lower, database is Lower
+● Heavy Discounted , database is Heavy Discounted
+● Order , database is 'Status is ordered '
+● Shipped , database is 'Status is Shipped '
+● Deliverd  , database is 'Status is Deliverd '
+●  Setting , database is system generated user setting
+
+## ◇ Reference View
+
+● Buying Process
+● Welcome
+
+# ● Actions
+
+## Buy (6)
+
+   ● Add
+
+   ● Call Phone (Customer Phone)
+
+   ● Compose Email (Customer Email)
+
+   ● Edit
+
+   ● Send SMS(Customer Phone)
+
+## Customers(7)
+
+   ● Add
+
+   ● Call Phone (Phone)
+
+   ● Compose Email (Email)
+
+   ● Delete
+
+   ● Edit
+
+   ● Send SMS (Phone)
+
+# Introduction(3)
+
+   ● Add
+   ● Delete
+   ● Edit
+
+# Orders(8)
+
+  ● Mark as delivered
+
+  ● Mark as shipped
+
+  ● View Ref(customer ID)
+
+  ● Add
+
+  ● Compose Email (Customer Email)
+
+  ● Delete
+
+  ● Edit
+
+# Products(4)
+
+   ● Add
+   ● Delete
+   ● Edit
+
+   ● Buy
+
+# User log(3)
+
+   ● Add
+   ● Delete
+   ● Edit
+
+# Email Bots
+
+ 
+
+1. Start
+2. Order created confirmation alert
+3. Wait until order ships
+4. Order shipped notification
+5. Wait Until order is delivered
+6. Order delivered notification with photo
+7. End
+
+We are thrilled to introduce FashiWearHouse, an exclusive destination for the fashion-forward woman who seeks quality, style, and sophistication. Our curated collection of women's wears is designed to empower and inspire, allowing you to express your unique personality through fashion.
+
+**Why FashiWearHouse?**
+
+1. **Exclusive Selection:** Discover a handpicked range of the latest trends and timeless classics, carefully selected for the modern woman.
+2. **Quality Assurance:** Each garment at FashiWearHouse is crafted with meticulous attention to detail, ensuring both style and durability.
+3. **Diverse Styles:** From casual chic to elegant evening wear, our collection caters to a wide range of tastes and occasions.
+
+First we create a login page. login page data are is inbuilt user setting. after creating login page. I’m create a welcome page or introduction page for the app. after this thing app will landed on product page .in the product page all the 170 product are available in primary view. and also create a my profile view which only shows your user mail data and your email id .
+
+ in menu view we create discount section ,upper section ,lower section and full section this are the type of cloths . and create a buy form for the products in this button ,create a action .in particular product in bottom section shows some buy button .when you click the button direct landed to the buying process form . and when you save the form it will automatically show your order will purchase. in admin section this product list are created in a orders section in card view. and their is a action to create the status of your delivery .once you buy the product it will show order status and you can update the status .like order is shipped and order is delivered . when you place the order .your email account received the mail of your purchasing product. and the status will change they also send mail . and the status is delivered an then mail will receive from our side . 
+
+thanks for reading.
